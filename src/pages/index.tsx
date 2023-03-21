@@ -1,9 +1,10 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
+import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
+import { Inter } from "next/font/google";
+import styles from "@/styles/Home.module.css";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -26,7 +27,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              By{' '}
+              By{" "}
               <Image
                 src="/vercel.svg"
                 alt="Vercel Logo"
@@ -117,7 +118,15 @@ export default function Home() {
             </p>
           </a>
         </div>
+
+        <div className={styles.grid}>
+          <Link href="about" className={styles.card} rel="noopener noreferrer">
+            <h3 className={inter.className}>
+              About <span>-&gt;</span>
+            </h3>
+          </Link>
+        </div>
       </main>
     </>
-  )
+  );
 }
