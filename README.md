@@ -36,3 +36,27 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Tutorial - Intro
+
+create a new nextJS app: `npx create-next-app next-app`
+
+```bash
+Would you like to use TypeScript with this project? -> Yes
+Would you like to use ESLint with this project? -> Yes
+Would you like to use `src/` directory with this project? -> Yes
+Would you like to use experimental `app/` directory with this project? -> no
+What import alias would you like configured? -> @/*
+```
+
+(optional) disable telemetry collection: `npx next telemetry disable`
+
+(optional) check status of telemetry collection: `npx next telemetry status`
+
+ESlint: `npm run lint`
+
+Hot reload: `npm run dev`
+
+Build: `npm run build`
+
+Launch production site: `npm run start`
