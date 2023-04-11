@@ -60,3 +60,18 @@ Hot reload: `npm run dev`
 Build: `npm run build`
 
 Launch production site: `npm run start`
+
+## Tutorial - Statically Created Routes
+
+Example: `src/pages/about.tsx`
+
+Demo: `http://localhost:3000/about`
+
+## Tutorial - Dynamically Created Routes
+
+Example: `src/pages/posts/[pid].tsx`
+
+Demo:
+- `http://localhost:3000/posts/hello`
+- `http://localhost:3000/posts/hello-world`
+
