@@ -37,7 +37,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-## Tutorial - Intro
+### Tutorial - Intro
 
 create a new nextJS app: `npx create-next-app next-app`
 
@@ -61,13 +61,13 @@ Build: `npm run build`
 
 Launch production site: `npm run start`
 
-## Tutorial - Statically Created Routes
+### Tutorial - Statically Created Routes
 
 Example: `src/pages/about.tsx`
 
 Demo: `http://localhost:3000/about`
 
-## Tutorial - Dynamically Created Routes
+### Tutorial - Dynamically Created Routes
 
 Example: `src/pages/posts/[pid].tsx`
 
@@ -75,3 +75,14 @@ Demo:
 - `http://localhost:3000/posts/hello`
 - `http://localhost:3000/posts/hello-world`
 
+### Tutorial - Fetch Data from a Remote API
+
+Example: `src/pages/api/gorest-example-posts.ts`
+
+Demo: `http://localhost:3000/api/gorest-example-posts`
+
+### Tutorial - Render Data Fetched from a Remote API
+
+Example: `src/pages/gorest-example/posts.tsx`
+
+Demo: `http://localhost:3000/gorest-example/posts`
