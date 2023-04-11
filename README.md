@@ -65,24 +65,24 @@ Launch production site: `npm run start`
 
 Example: `src/pages/about.tsx`
 
-Demo: `http://localhost:3000/about`
+Demo: https://next-app.pilinux.me/about
 
 ### Tutorial - Dynamically Created Routes
 
 Example: `src/pages/posts/[pid].tsx`
 
 Demo:
-- `http://localhost:3000/posts/hello`
-- `http://localhost:3000/posts/hello-world`
+- https://next-app.pilinux.me/posts/hello
+- https://next-app.pilinux.me/posts/hello-world
 
 ### Tutorial - Fetch Data from a Remote API
 
 Example: `src/pages/api/gorest-example-posts.ts`
 
-Demo: `http://localhost:3000/api/gorest-example-posts`
+Demo: https://next-app.pilinux.me/api/gorest-example-posts
 
 ### Tutorial - Render Data Fetched from a Remote API
 
 Example: `src/pages/gorest-example/posts.tsx`
 
-Demo: `http://localhost:3000/gorest-example/posts`
+Demo: https://next-app.pilinux.me/gorest-example/posts
