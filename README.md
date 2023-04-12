@@ -86,3 +86,18 @@ Demo: https://next-app.pilinux.me/api/gorest-example-posts
 Example: `src/pages/gorest-example/posts.tsx`
 
 Demo: https://next-app.pilinux.me/gorest-example/posts
+
+### Totorial - HTTP POST
+
+Example:
+- `src/pages/api/gorest-example-login.ts`
+- `src/pages/gorest-example/http-post.tsx`
+
+Demo: https://next-app.pilinux.me/gorest-example/http-post
+
+```JSON
+{
+    "email": "killua@example.com",
+    "password": "1234.."
+}
+```
