@@ -87,7 +87,7 @@ Example: `src/pages/gorest-example/posts.tsx`
 
 Demo: https://next-app.pilinux.me/gorest-example/posts
 
-### Totorial - HTTP POST
+### Tutorial - HTTP POST
 
 Example:
 - `src/pages/api/gorest-example-login.ts`
