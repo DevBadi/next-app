@@ -125,6 +125,16 @@ export default function Home() {
               About <span>-&gt;</span>
             </h3>
           </Link>
+
+          <Link
+            href="counter"
+            className={styles.card}
+            rel="noopener noreferrer"
+          >
+            <h3 className={inter.className}>
+              Counter <span>-&gt;</span>
+            </h3>
+          </Link>
         </div>
       </main>
     </>
