@@ -101,3 +101,19 @@ Demo: https://next-app.pilinux.me/gorest-example/http-post
     "password": "1234.."
 }
 ```
+
+### Tutorial - Redux Toolkit Intro
+
+redux provides global state to set/get data at any point in the app
+
+Doc: https://redux-toolkit.js.org/tutorials/quick-start
+
+`npm install @reduxjs/toolkit react-redux`
+
+- 1: `src/store.ts`, `src/slices/counterSlice.ts`
+- 2: `src/pages/_app.tsx`
+- 3: `src/pages/counter.tsx`
+
+Demo: https://next-app.pilinux.me/counter
+
+See [commit](https://github.com/pilinux/next-app/commit/c7b9fd2)
