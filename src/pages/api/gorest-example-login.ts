@@ -7,6 +7,13 @@ const api_url = process.env.API_URL; // load from .env.local
 export default handler;
 
 async function handler(req: NextApiRequest, res: NextApiResponse) {
+    // check allowed methods
+    if (req.method !== 'POST') {
+        res.setHeader('Allow', ['POST']);
+        res.status(405).json({ message: `method ${req.method} not allowed` });
+        return
+    }
+
     try {
         // get data submitted in request's body
         const body = req.body

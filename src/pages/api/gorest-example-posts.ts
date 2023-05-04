@@ -7,6 +7,13 @@ const api_url = process.env.API_URL; // load from .env.local
 export default handler;
 
 async function handler(req: NextApiRequest, res: NextApiResponse) {
+    // check allowed methods
+    if (req.method !== 'GET') {
+        res.setHeader('Allow', ['GET']);
+        res.status(405).json({ message: `method ${req.method} not allowed` });
+        return
+    }
+
     try {
         // fetch data from the remote API
         const response = await fetch(api_url + "/posts");
