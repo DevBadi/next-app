@@ -37,17 +37,15 @@ function AllPosts() {
           <br></br>
           <br></br>
 
-          <p>
-            {data.message.map((obj: MyObject) => (
-              <div key={obj.postID}>
-                {" "}
-                {obj.postID} | {obj.title} <pre>{obj.body}</pre>{" "}
-                <pre>createdAt: {obj.createdAt}</pre>{" "}
-                <pre>updatedAt: {obj.updatedAt}</pre>
-                <br></br>
-              </div>
-            ))}
-          </p>
+          {data.message.map((obj: MyObject) => (
+            <div key={obj.postID}>
+              {" "}
+              {obj.postID} | {obj.title} <pre>{obj.body}</pre>{" "}
+              <pre>createdAt: {obj.createdAt}</pre>{" "}
+              <pre>updatedAt: {obj.updatedAt}</pre>
+              <br></br>
+            </div>
+          ))}
         </div>
       </main>
     </>
