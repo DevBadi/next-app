@@ -61,6 +61,14 @@ Build: `npm run build`
 
 Launch production site: `npm run start`
 
+### Tutorial - Update NextJS
+
+Latest releases: https://github.com/vercel/next.js/releases
+
+- check installed version: `npx next --version`
+- install the latest version: `npm install next@latest`
+- install a specific version: `npm install next@version-number`, example: `npm install next@13.4.2`
+
 ### Tutorial - Statically Created Routes
 
 Example: `src/pages/about.tsx`
